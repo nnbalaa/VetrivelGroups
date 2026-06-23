@@ -35,19 +35,10 @@ export const metadata: Metadata = {
     "professional photography Chennai",
   ],
   authors: [{ name: site.name }],
-  openGraph: {
-    title: `${site.name} — ${site.tagline}`,
-    description: site.description,
-    url: site.url,
-    siteName: site.name,
-    locale: "en_IN",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${site.name} — ${site.tagline}`,
-    description: site.description,
-  },
+  
+twitter: {
+  card: "summary",
+},
   robots: {
     index: true,
     follow: true,
