@@ -33,11 +33,12 @@ export const site = {
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
+  { label: "Products", href: "/products" },
   { label: "Divisions", href: "/divisions" },
   { label: "Gallery", href: "/gallery" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
-] as const;
+];
 
 export const stats = [
   { value: "2020", label: "Year Founded" },
